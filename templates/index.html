@@ -1,0 +1,20 @@
+<DOCTYPE html>
+    <html>
+    <header>
+        <meta charset="utf-8">
+        <meta lang="fr">
+    </header>
+
+    <body>
+        <h1>Totemory</h1>
+        {% for device_id, device_stats in stats %}
+        <p>Appareil : {{device_id}}<br>
+            Plus haut niveau atteint : {{device_stats.highest_level}}<br>
+            Meilleur score : {{device_stats.highscore}}<br>
+            Durée de la session : {{device_stats.session.duration}} secondes<br>
+            Durée moyenne par niveaux : {{device_stats.session.get_average_level_duration()}} secondes
+        </p>
+        {% endfor %}
+    </body>
+
+    </html>

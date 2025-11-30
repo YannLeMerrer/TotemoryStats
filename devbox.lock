@@ -1,0 +1,58 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-10-31T03:13:32Z",
+      "resolved": "github:NixOS/nixpkgs/a7fc11be66bdfb5cdde611ee5ce381c183da8386?lastModified=1761880412&narHash=sha256-QoJjGd4NstnyOG4mm4KXF%2BweBzA2AH%2F7gn1Pmpfcb0A%3D"
+    },
+    "php@latest": {
+      "last_modified": "2025-11-15T07:28:48Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/1d4c88323ac36805d09657d13a5273aea1b34f0c#php",
+      "source": "devbox-search",
+      "version": "8.4.14",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z75m5agq8ym53cihhny95vnm7jzbq7if-php-with-extensions-8.4.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z75m5agq8ym53cihhny95vnm7jzbq7if-php-with-extensions-8.4.14"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3glapgq2b97i89jaa1ql0jf2d1rirlz5-php-with-extensions-8.4.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3glapgq2b97i89jaa1ql0jf2d1rirlz5-php-with-extensions-8.4.14"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zz8p7f0f1m67kfc7j2a0i2vjz8w97fa1-php-with-extensions-8.4.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zz8p7f0f1m67kfc7j2a0i2vjz8w97fa1-php-with-extensions-8.4.14"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rszkpqlnv4w81r3139ixy3rd66hm1bjw-php-with-extensions-8.4.14",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rszkpqlnv4w81r3139ixy3rd66hm1bjw-php-with-extensions-8.4.14"
+        }
+      }
+    }
+  }
+}
